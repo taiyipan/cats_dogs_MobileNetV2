@@ -44,8 +44,10 @@ classifier.build(input_shape = (None, 160, 160, 3))
 classifier.trainable = False
 classifier.summary()
 
+print(classifier.input_names)
+
 # evaluate performance
-classifier.evaluate(test_batches)
+# classifier.evaluate(test_batches)
 
 
 
