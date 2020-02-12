@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 docker run -it --rm \
 -p 8500:8500 \
 -p 8501:8501 \
